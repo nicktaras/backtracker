@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66105A711DB9F6C000BD2E97 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66105A701DB9F6C000BD2E97 /* TrackViewController.swift */; };
+		66105A731DBA08FD00BD2E97 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66105A721DBA08FD00BD2E97 /* MapKit.framework */; };
+		66105A751DBA186B00BD2E97 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66105A741DBA186B00BD2E97 /* CoreLocation.framework */; };
+		664129B11DB62F4000A38AB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664129B01DB62F4000A38AB7 /* AppDelegate.swift */; };
+		664129B31DB62F4000A38AB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664129B21DB62F4000A38AB7 /* ViewController.swift */; };
+		664129B61DB62F4000A38AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664129B41DB62F4000A38AB7 /* Main.storyboard */; };
+		664129B81DB62F4000A38AB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664129B71DB62F4000A38AB7 /* Assets.xcassets */; };
+		664129BB1DB62F4000A38AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664129B91DB62F4000A38AB7 /* LaunchScreen.storyboard */; };
+		66B66EAC1DB77B8A00091C71 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B66EAB1DB77B8A00091C71 /* TrackTableViewCell.swift */; };
+		66B66EB21DB77E5200091C71 /* TrackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B66EB11DB77E5200091C71 /* TrackTableViewController.swift */; };
+		66B66EB41DB7822000091C71 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B66EB31DB7822000091C71 /* Track.swift */; };
+		66C7FE2B1DC362ED006A87E6 /* BacktrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7FE2A1DC362ED006A87E6 /* BacktrackViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66105A701DB9F6C000BD2E97 /* TrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		66105A721DBA08FD00BD2E97 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		66105A741DBA186B00BD2E97 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		664129AD1DB62F4000A38AB7 /* Backtrack Mapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backtrack Mapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664129B01DB62F4000A38AB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		664129B21DB62F4000A38AB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		664129B51DB62F4000A38AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		664129B71DB62F4000A38AB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664129BA1DB62F4000A38AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		664129BC1DB62F4000A38AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B66EAB1DB77B8A00091C71 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		66B66EB11DB77E5200091C71 /* TrackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackTableViewController.swift; path = ../TrackTableViewController.swift; sourceTree = "<group>"; };
+		66B66EB31DB7822000091C71 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		66C7FE2A1DC362ED006A87E6 /* BacktrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BacktrackViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664129AA1DB62F4000A38AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66105A751DBA186B00BD2E97 /* CoreLocation.framework in Frameworks */,
+				66105A731DBA08FD00BD2E97 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664129A41DB62F4000A38AB7 = {
+			isa = PBXGroup;
+			children = (
+				66105A741DBA186B00BD2E97 /* CoreLocation.framework */,
+				66105A721DBA08FD00BD2E97 /* MapKit.framework */,
+				664129AF1DB62F4000A38AB7 /* Backtrack Mapper */,
+				664129AE1DB62F4000A38AB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		664129AE1DB62F4000A38AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664129AD1DB62F4000A38AB7 /* Backtrack Mapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664129AF1DB62F4000A38AB7 /* Backtrack Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				66B66EB11DB77E5200091C71 /* TrackTableViewController.swift */,
+				664129B01DB62F4000A38AB7 /* AppDelegate.swift */,
+				664129B21DB62F4000A38AB7 /* ViewController.swift */,
+				664129B41DB62F4000A38AB7 /* Main.storyboard */,
+				66105A701DB9F6C000BD2E97 /* TrackViewController.swift */,
+				66C7FE2A1DC362ED006A87E6 /* BacktrackViewController.swift */,
+				66B66EAB1DB77B8A00091C71 /* TrackTableViewCell.swift */,
+				664129B71DB62F4000A38AB7 /* Assets.xcassets */,
+				664129B91DB62F4000A38AB7 /* LaunchScreen.storyboard */,
+				664129BC1DB62F4000A38AB7 /* Info.plist */,
+				66B66EB31DB7822000091C71 /* Track.swift */,
+			);
+			path = "Backtrack Mapper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664129AC1DB62F4000A38AB7 /* Backtrack Mapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664129BF1DB62F4000A38AB7 /* Build configuration list for PBXNativeTarget "Backtrack Mapper" */;
+			buildPhases = (
+				664129A91DB62F4000A38AB7 /* Sources */,
+				664129AA1DB62F4000A38AB7 /* Frameworks */,
+				664129AB1DB62F4000A38AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Backtrack Mapper";
+			productName = "Backtrack Mapper";
+			productReference = 664129AD1DB62F4000A38AB7 /* Backtrack Mapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		664129A51DB62F4000A38AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tea Break Apps";
+				TargetAttributes = {
+					664129AC1DB62F4000A38AB7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = E9XMYS6DTV;
+					};
+				};
+			};
+			buildConfigurationList = 664129A81DB62F4000A38AB7 /* Build configuration list for PBXProject "Backtrack Mapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 664129A41DB62F4000A38AB7;
+			productRefGroup = 664129AE1DB62F4000A38AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664129AC1DB62F4000A38AB7 /* Backtrack Mapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664129AB1DB62F4000A38AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664129BB1DB62F4000A38AB7 /* LaunchScreen.storyboard in Resources */,
+				664129B81DB62F4000A38AB7 /* Assets.xcassets in Resources */,
+				664129B61DB62F4000A38AB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664129A91DB62F4000A38AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664129B31DB62F4000A38AB7 /* ViewController.swift in Sources */,
+				66B66EB41DB7822000091C71 /* Track.swift in Sources */,
+				66B66EB21DB77E5200091C71 /* TrackTableViewController.swift in Sources */,
+				664129B11DB62F4000A38AB7 /* AppDelegate.swift in Sources */,
+				66105A711DB9F6C000BD2E97 /* TrackViewController.swift in Sources */,
+				66B66EAC1DB77B8A00091C71 /* TrackTableViewCell.swift in Sources */,
+				66C7FE2B1DC362ED006A87E6 /* BacktrackViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		664129B41DB62F4000A38AB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664129B51DB62F4000A38AB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		664129B91DB62F4000A38AB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664129BA1DB62F4000A38AB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664129BD1DB62F4000A38AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		664129BE1DB62F4000A38AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		664129C01DB62F4000A38AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Backtrack Mapper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicktaras.Backtrack-Mapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		664129C11DB62F4000A38AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Backtrack Mapper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicktaras.Backtrack-Mapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664129A81DB62F4000A38AB7 /* Build configuration list for PBXProject "Backtrack Mapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664129BD1DB62F4000A38AB7 /* Debug */,
+				664129BE1DB62F4000A38AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664129BF1DB62F4000A38AB7 /* Build configuration list for PBXNativeTarget "Backtrack Mapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664129C01DB62F4000A38AB7 /* Debug */,
+				664129C11DB62F4000A38AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 664129A51DB62F4000A38AB7 /* Project object */;
+}
