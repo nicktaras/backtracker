@@ -1,2 +1,2 @@
 # backtracker
-IOS Application to allow people to save places, then return to them at a later time.
+IOS Application allowing people to save places of interest and return to them at a later date.
